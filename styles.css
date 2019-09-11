@@ -1,0 +1,12 @@
+body { 
+     background-image: radial-gradient(circle, #a8a8a8, #a8a8a8, #a8a8a8, #a8a8a8, #a8a8a8);
+}
+
+.products {
+    border: solid white 1px;
+    float: right;
+    width: 35%;
+}
+.btns {
+    font-size: 2vw;
+}
