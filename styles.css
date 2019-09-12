@@ -5,8 +5,13 @@ body {
 .products {
     border: solid white 1px;
     float: right;
-    width: 35%;
+    display: inline-block;
 }
 .btns {
-    font-size: 2vw;
+    font-size: 1vw;
+}
+
+.drinks {
+     border: solid white 1px;
+    float: right;
 }
