@@ -15,3 +15,23 @@ body {
      border: solid white 1px;
     float: right;
 }
+
+.candy {
+     border: solid white 1px;
+    float: right;
+}
+
+.chips {
+     border: solid white 1px;
+    float: right;
+}
+
+.ic {
+     border: solid white 1px;
+    float: right;
+}
+
+td {
+    border: 1px white solid;
+    display: inline-block;
+}

@@ -10,24 +10,14 @@
 
    </head>
    
-   <body>
-   <script>
+   <body onload="SetStyle()">
    
-   document.getElementById("drinks").style.display = "none";
-   
-   
-   
-   
-   
-   
-   
-   </script>
    
    <div class="products">
    
    <table>
    <tr>
-   <th><button class="btns" onclick="HideDrinks()">Drinks</button></th> <th><button class="btns">Chips</button></th> <th><button class="btns">Candy</button></th> <th><button class="btns">Ice Cream</button></th> 
+   <th><button class="btns" onclick="HideDrinks()">Drinks</button></th> <th><button class="btns" onclick="HideChips()">Chips</button></th> <th><button class="btns" onclick="HideCandy()">Candy</button></th> <th><button class="btns" onclick="HideIC()">Ice Cream</button></th> 
    </tr>
    </table>
    
@@ -40,7 +30,63 @@
    <div class="drinks">
    <table id="drinks">
    <tr>
-   <td><button class="btns"> COKE </button></td> <td><button class="btns"> MOUNTAIN DEW </button></td> <td><button class="btns"> SPRITE</button> </td> <td><button class="btns"> ROOT BEER </button></td> <td><button class="btns"> SWEET TEA</button> </td> <td><button class="btns"> UNSWEET TEA</button> </td> <td><button class="btns"> LEMONADE </button></td> 
+   <td><button class="btns"> COKE </button></td> 
+   <td><button class="btns"> MOUNTAIN DEW </button></td> 
+   <td><button class="btns"> SPRITE</button> </td> 
+   </tr> <tr>
+   <td><button class="btns"> ROOT BEER </button></td> 
+   <td><button class="btns"> SWEET TEA</button> </td> 
+   <td><button class="btns"> UNSWEET TEA</button> </td> 
+   </tr> <tr>
+   <td><button class="btns"> LEMONADE </button></td> 
+   </tr>
+   </table>
+   </div>
+   
+    <div class="chips">
+   <table id="chips">
+   <tr>
+   <td><button class="btns"> DORITOS </button></td>
+   <td><button class="btns"> FRITOS </button></td>
+   <td><button class="btns"> CHEETOS</button> </td> 
+   </tr> <tr>
+   <td><button class="btns"> HURRS </button></td> 
+   <td><button class="btns"> MISS VICKIES</button> </td> 
+   <td><button class="btns"> LAYS</button> </td>
+   </tr> <tr>
+   <td><button class="btns"> PRINGLES</button></td> 
+   </tr>
+   </table>
+   </div>
+   
+    <div class="ic">
+   <table id="ic">
+   <tr>
+   <td><button class="btns"> VANILLA </button></td>
+   <td><button class="btns"> CHOCLATE </button></td> 
+   <td><button class="btns"> STRAWBERRY</button> </td> 
+   <tr> </tr>
+   <td><button class="btns"> ROCKY ROAD </button></td> 
+   <td><button class="btns"> SUPERMAN</button> </td> 
+   <td><button class="btns"> PECAN</button> </td>
+   </tr> <tr>
+   <td><button class="btns"> ORANGE</button></td> 
+   </tr>
+   </table>
+   </div>
+   
+    <div class="candy">
+   <table id="candy">
+   <tr>
+   <td><button class="btns"> SNICKERS </button></td> 
+   <td><button class="btns"> SKITTLES </button></td>
+   <td><button class="btns"> STARBURTS</button> </td>
+   </tr> <tr> 
+   <td><button class="btns"> SWEETTARTS </button></td> 
+   <td><button class="btns"> SOUR PATCH KIDS</button> </td>
+   <td><button class="btns"> SWEDISH FISH</button> </td>
+   </tr> <tr>
+   <td><button class="btns"> SMARTIES</button></td> 
    </tr>
    </table>
    </div>
